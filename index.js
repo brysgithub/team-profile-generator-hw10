@@ -34,8 +34,8 @@ function generateProfiles() {
         },
         {
             type: "input",
-            message: "Enter manager phone#: ",
-            name: "phoneNumber",
+            message: "Enter manager office#: ",
+            name: "officeNumber",
         }
     ]).then((data) => {
         let { name, id, email, phoneNumber } = data;
