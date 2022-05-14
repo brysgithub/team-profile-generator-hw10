@@ -4,3 +4,5 @@ const path = require('path');
 function outputHtml(team) {
 
 }
+
+module.exports = outputHtml;
