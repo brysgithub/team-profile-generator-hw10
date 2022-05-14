@@ -38,8 +38,8 @@ function generateProfiles() {
             name: "officeNumber",
         }
     ]).then((data) => {
-        let { name, id, email, phoneNumber } = data;
-        let manager = new Manager(data);
+        let { name, id, email, officeNumber } = data;
+        let manager = new Manager(name, id, email, officeNumber);
         team.push(manager);
 
         nextPrompt();
