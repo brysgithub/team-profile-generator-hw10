@@ -44,7 +44,7 @@ function generateProfiles() {
 
         nextPrompt();
 
-        console.log("< Manager Created >")
+        console.log("/n", "< Manager Created >")
     });
 }
 
@@ -102,7 +102,7 @@ function pushIntern() {
 
         nextPrompt();
 
-        console.log("< Intern Created >")
+        console.log("/n", "< Intern Created >")
     });
 }
 
@@ -135,7 +135,7 @@ function pushEngineer() {
 
         nextPrompt();
 
-        console.log("< Engineer Created >")
+        console.log("/n", "< Engineer Created >")
     });
 }
 
