@@ -1,0 +1,27 @@
+.header {
+    background-color: rgb(70, 111, 235);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.card-style {
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: 19rem;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.manager-color {
+    background-color: rgb(183, 92, 92);
+}
+
+.intern-color {
+    background-color: rgb(93, 142, 93);
+}
+
+.engineer-color {
+    background-color: rgb(117, 180, 216);
+}
