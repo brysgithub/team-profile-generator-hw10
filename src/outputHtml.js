@@ -3,11 +3,11 @@ const fs = require('fs');
 const path = require('path');
 
 // push built values to html
-const appendValue = (htmlTemp, field, value) => {
-    return htmlTemp.replaceAll(`{{ ${field} }}`, value);
-};
+const appendValue = (htmlTemp, item, value) => {
 
-// const data = values;
+    return htmlTemp.replaceAll(`{{ ${item} }}`, value);
+
+};
 
 // Pull in employee info, choose template and append to dist/employee.html
 function outputHtml(team) {
